@@ -79,22 +79,51 @@ h1 a {
     justify-content: center;
     padding: 3vh;
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 .lodging-photo-div {
-    display: flex;
+        display: flex;
     justify-content: space-evenly;
 }
 
+.lodging-photo-container a {
+    color: rgb(233, 178, 26);
+    text-shadow: 1px 1px rgb(228, 228, 228);
+}
+
+.lodging-photo-container {
+   position: relative;
+}
+
+.lodging-photo-container p, .transportation-photo-container p,
+.activities-photo-container p {
+  max-width: calc(300px - 2rem);
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 3vh;
+}
+
+
 .transportation {
     height: 60vh;
-    background-color: rgb(212, 212, 212);
+    background-color: rgb(225, 223, 223);
 }
 
 .transportation-photo-div {
     display: flex;
     justify-content: space-evenly;
+}
 
+.transportation-photo-container a {
+    color: rgb(233, 178, 26);
+    text-shadow: 1px 1px rgb(228, 228, 228);
+}
+
+.transportation-photo-container {
+    position: relative;
 }
 
 .transportation h2 {
@@ -119,5 +148,14 @@ h1 a {
 .activities-photo-div {
     display: flex;
     justify-content: space-evenly;
+}
+
+.activities-photo-container a {
+    color: rgb(233, 178, 26);
+    text-shadow: 1px 1px rgb(228, 228, 228);
+}
+
+.activities-photo-container {
+    position: relative;
 }
 
