@@ -67,7 +67,7 @@ h1 a {
 }
 
 .lodging {
-    height: 40vh;
+    height: 60vh;
     background-color: rgb(242, 242, 242);
 }
 
@@ -83,6 +83,21 @@ h1 a {
     justify-content: space-evenly;
 }
 
-.lodging-photo-container {
+.transportation {
+    height: 40vh;
+    background-color: rgb(212, 212, 212);
+}
+
+.transportation-photo-div {
+    display: flex;
+    justify-content: space-evenly;
 
 }
+
+.transportation h2 {
+    display: flex;
+    justify-content: center;
+    padding: 3vh;
+    margin-top: 0;
+}
+
