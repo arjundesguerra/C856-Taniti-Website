@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+#header {
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+    margin-left: 2vh;
+    padding: 20px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    padding: 20px;
+    margin-right: 3vh;
+}
+
+.menu li a {
+    color: white;
+}
+
+.home-picture {
+    background-image: url('./Pictures/pexels-vincent-gerbouin-1174732.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
