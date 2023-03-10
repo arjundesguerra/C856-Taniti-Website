@@ -7,7 +7,7 @@ body {
 }
 
 #header {
-    background-color: skyblue;
+    background-color: rgba(0,186,206,255);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,7 +20,11 @@ h1 {
     margin: 0;
     margin-left: 2vh;
     padding: 20px;
+}
+
+h1 a {
     color: white;
+    text-decoration: none;
 }
 
 .menu {
@@ -62,3 +66,23 @@ h1 {
     font-size: 40px;
 }
 
+.lodging {
+    height: 40vh;
+    background-color: rgb(242, 242, 242);
+}
+
+.lodging h2 {
+    display: flex;
+    justify-content: center;
+    padding: 3vh;
+    margin-top: 0;
+}
+
+.lodging-photo-div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lodging-photo-container {
+
+}
