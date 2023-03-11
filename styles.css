@@ -160,16 +160,12 @@ h1 a {
     position: relative;
 }
 
-.about {
-
-}
-
 .about-picture {
     background-image: url('./Pictures/pexels-diego-madrigal-2024534.jpg');
     background-size: cover;
     height: 60vh;
     background-position: center 30%;
-    position: absolute;
+    position: relative;
     text-align: center;
 }
 
@@ -191,3 +187,40 @@ h1 a {
 
 }
 
+.contact {
+    height: 60vh;
+    background-color: rgb(242, 242, 242);
+    text-align: center;
+}
+
+.contact h2 {
+    margin-top: 0;
+    padding-top: 5vh;
+}
+
+.three-form {
+    display: flex;
+    justify-content: center;
+    padding-top: 5vh;
+    padding-left: 15vh;
+}
+
+.three-form input {
+    width: 10vw;
+    margin-right: 12vh;
+}
+
+label[for="inquiry"] {
+    display: block;
+    margin-top: 4vh;
+}
+
+#inquiry {
+    margin-top: 1vh;
+    height: 5vh;
+    width: 50vw;
+}
+
+.submit-button {
+    margin-top: 3vh;
+}
