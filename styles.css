@@ -72,7 +72,7 @@ h1 a {
 .lodging {
     height: 60vh;
     background-color: rgb(242, 242, 242);
-    padding-bottom: 6vh;
+    padding-bottom: 12rem;
 }
 
 .lodging h2, .transportation h2,
@@ -112,7 +112,7 @@ h1 a {
 .transportation {
     height: 60vh;
     background-color: rgb(225, 223, 223);
-    padding-bottom: 6vh;
+    padding-bottom: 12rem;
 }
 
 .transportation-photo-div {
@@ -139,7 +139,7 @@ h1 a {
 .activities {
     height: 60vh;
     background-color: rgb(242, 242, 242);
-    padding-bottom: 15vh;
+    padding-bottom: 15rem;
 
 }
 
