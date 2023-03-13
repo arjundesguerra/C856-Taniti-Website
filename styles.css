@@ -195,6 +195,7 @@ h1 a {
     height: 40vh;
     background-color: rgb(242, 242, 242);
     text-align: center;
+    padding-bottom: 4rem;
 }
 
 .contact h2 {
@@ -232,7 +233,7 @@ label[for="inquiry"] {
 .footer div {
     background-color: rgba(0,186,206,255);
     width: 100%;
-    height: 8vh;
+    height: 9vh;
     display: flex;
     align-items: center;
 }
@@ -269,6 +270,7 @@ label[for="inquiry"] {
     padding-top: 28vh;
     display: flex;
     align-items: center;
+    padding-bottom: 13rem;
 }
 
 .extended-page-div p {
